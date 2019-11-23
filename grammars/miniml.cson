@@ -1,0 +1,19 @@
+name: 'MiniML'
+scopeName: 'miniml'
+type: 'tree-sitter'
+parser: 'tree-sitter-miniml'
+
+fileTypes: ['mml']
+
+scopes:
+  '''
+  function_declaration > identifier,
+  call_expression > identifier,
+  call_expression > field_expression > field_identifier
+  ''': 'entity.name.function'
+
+  '''
+    "*", "/", "+", "-"
+  ''': 'keyword.operator'
+
+# comments:

@@ -1,0 +1,10 @@
+{
+  "name": "language-miniml",
+  "version": "0.0.0",
+  "description": "A grammar specification for MiniML.",
+  "keywords": [ "grammar" ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
