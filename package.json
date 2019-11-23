@@ -2,6 +2,7 @@
   "name": "language-miniml",
   "version": "0.0.0",
   "description": "A grammar specification for MiniML.",
+  "repository": "https://github.com/Riib11/language-miniml",
   "keywords": [ "grammar" ],
   "license": "MIT",
   "engines": {
